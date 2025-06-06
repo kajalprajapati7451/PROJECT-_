@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Godrej Alira</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet" />
+  <script defer src="script.js"></script>
+</head>
+<body>
+
+  <!-- Hero Background -->
+  <div class="hero-background"></div>
+
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="logo">Godrej Alira</div>
+    <div class="hamburger" id="hamburger">
+      <div></div><div></div><div></div>
+    </div>
+    <ul class="nav-links" id="nav-links">
+      <li><a href="#home" onclick="closeMenu()">Home</a></li>
+      <li><a href="#features" onclick="closeMenu()">Features</a></li>
+      <li><a href="#amenities" onclick="closeMenu()">Amenities</a></li>
+      <li><a href="#about" onclick="closeMenu()">About Us</a></li>
+      <li><a href="#contact" onclick="closeMenu()">Contact Us</a></li>
+      <li><a href="#map" onclick="closeMenu()">Map</a></li>
+    </ul>
+  </nav>
+
+ <!-- Home Section -->
+<header class="hero" id="home">
+  <div class="hero-content">
+    <h1>Welcome to Godrej Alira</h1>
+    <p>Luxury Apartments in Noida with Modern Lifestyle</p>
+    <a href="#contact" class="btn">Contact Us</a>
+    <a href="#" id="brochureBtn" class="btn brochure-btn">Download Brochure</a>
+  </div>
+</header>
+
+
+  <!-- Features Section -->
+  <section class="section" id="features">
+    <h2>Project Features</h2>
+    <div class="cards-container">
+      <div class="card">
+        <img class="circle-img" src="https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=600&q=80" alt="Prime Location" />
+        <h3>Prime Location</h3>
+        <p>Located near the Noida Expressway for easy connectivity to Delhi and NCR.</p>
+      </div>
+      <div class="card">
+        <img class="circle-img" src="https://images.unsplash.com/photo-1523413651479-597eb2da0ad6?auto=format&fit=crop&w=600&q=80" alt="Vastu-Compliant" />
+        <h3>Vastu-Compliant Layouts</h3>
+        <p>Smart layouts that maximize space and positivity following Vastu principles.</p>
+      </div>
+      <div class="card">
+        <img class="circle-img" src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=600&q=80" alt="Security" />
+        <h3>Advanced Security</h3>
+        <p>24x7 CCTV surveillance and gated community for your safety and peace of mind.</p>
+      </div>
+      <div class="card">
+        <img class="circle-img" src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=600&q=80" alt="Eco-Friendly Design" />
+        <h3>Eco-Friendly Design</h3>
+        <p>Energy-efficient homes with sustainable materials to reduce environmental impact.</p>
+      </div>
+      <div class="card">
+        <img class="circle-img" src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=600&q=80" alt="Smart Home Technology" />
+        <h3>Smart Home Technology</h3>
+        <p>Integrated smart systems for lighting, security, and climate control at your fingertips.</p>
+      </div>
+      <div class="card">
+        <img class="circle-img" src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=600&q=80" alt="Spacious Interiors" />
+        <h3>Spacious Interiors</h3>
+        <p>Well-designed rooms with ample natural light and ventilation for a comfortable living.</p>
+      </div>
+    </div>
+  </section>
+
+ <!-- Amenities Section (No slider, just cards) -->
+  <section class="section" id="amenities">
+    <h2>Premium Amenities</h2>
+    <div class="cards-container">
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1528909514045-2fa4ac7a08ba" alt="Clubhouse & Banquet" />
+        <h3>Clubhouse & Banquet</h3>
+        <p>Celebrate moments in our fully-equipped banquet hall and clubhouse.</p>
+      </div>
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=600&q=80" alt="Lush Green Parks" />
+        <h3>Lush Green Parks</h3>
+        <p>Beautiful landscaped gardens and walking paths to connect with nature.</p>
+      </div>
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=600&q=80" alt="Covered Parking" />
+        <h3>Covered Parking</h3>
+        <p>Secure and spacious parking area for residents and visitors.</p>
+      </div>
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=600&q=80" alt="24x7 Security" />
+        <h3>24x7 Security</h3>
+        <p>Professional security personnel and modern surveillance systems.</p>
+      </div>
+    </div>
+  </section>
+    
+
+ <!-- About Section -->
+<section class="section" id="about">
+  <h2>About Godrej Alira</h2>
+  <div class="about-content">
+    <p>Godrej Alira is a symbol of luxury living in Noida. Designed for comfort, sustainability, and community living, our homes provide state-of-the-art features and timeless design. Every element is crafted with precision to offer unmatched quality of life.</p>
+    
+    <p>Located in the heart of Noida, Godrej Alira offers seamless connectivity to major business hubs, schools, hospitals, and entertainment centers. The project emphasizes eco-friendly living with landscaped green spaces, rainwater harvesting, and energy-efficient technologies.</p>
+    
+    <p>Experience a vibrant community lifestyle with world-class amenities including a clubhouse, swimming pool, gymnasium, kids’ play area, jogging tracks, and 24x7 security. Our smart home integration allows residents to control lighting, climate, and security systems from the convenience of their smartphones.</p>
+    
+    <p>Whether you are a young professional, a growing family, or a retiree, Godrej Alira is thoughtfully crafted to meet diverse needs, ensuring comfort, safety, and luxury at every turn.</p>
+  </div>
+</section>
+
+
+  <!-- Contact Section -->
+  <section class="section" id="contact">
+    <h2>Contact Us</h2>
+    <div class="contact-container">
+      <form id="contactForm">
+        <label for="name">Full Name</label>
+        <input type="text" id="name" name="name" placeholder="Your full name" required />
+        <label for="email">Email Address</label>
+        <input type="email" id="email" name="email" placeholder="Your email" required />
+        <label for="phone">Phone Number</label>
+        <input type="tel" id="phone" name="phone" placeholder="+91-XXXXXXXXXX" required />
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="4" placeholder="Your message here" required></textarea>
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+      <div class="contact-info">
+        <p><strong>Phone:</strong> +91-9999999999</p>
+        <p><strong>Email:</strong> info@godrejalira.com</p>
+        <p><strong>Address:</strong> Sector 150, Noida, India</p>
+        <a href="https://wa.me/919999999999" target="_blank" class="btn whatsapp-btn">Chat on WhatsApp</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Map Section -->
+  <section class="section" id="map">
+    <h2>Location Map</h2>
+    <div class="map-container">
+      <iframe src="https://www.google.com/maps/embed?..." width="100%"height="350" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </div>
+  </section>
+
+  <!-- Scroll to Bottom Icon -->
+<div id="scrollToBottomIcon" title="Scroll to bottom" style="cursor:pointer; font-size: 24px;">
+  ↓
+</div>
+
+<!-- Scroll to Top Icon -->
+<div id="scrollToTopIcon" title="Scroll to top" style="cursor:pointer; font-size: 24px;">
+  ↑
+</div>
+
+
+  <!-- Login Popup Modal -->
+  <!-- Download Brochure Button -->
+<a href="#" id="brochureBtn" class="btn brochure-btn">Download Brochure</a>
+
+<!-- Login Modal -->
+<div id="loginModal" class="modal">
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <h2>Login to Download Brochure</h2>
+    <form id="loginForm">
+      <label for="username">Username</label>
+      <input type="text" id="username" name="username" placeholder="Enter username" required />
+      
+      <label for="password">Password</label>
+      <input type="password" id="password" name="password" placeholder="Enter password" required />
+      
+      <button type="submit" class="btn">Login</button>
+    </form>
+  </div>
+</div>
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+  const brochureBtn = document.getElementById('brochureBtn');
+  const modal = document.getElementById('loginModal');
+  const closeBtn = modal.querySelector('.close');
+
+  // Open modal when brochure button is clicked
+  brochureBtn.addEventListener('click', function (e) {
+    e.preventDefault();
+    modal.style.display = 'flex'; // Use flex to center
+    document.body.style.overflow = 'hidden'; // Disable scroll
+  });
+
+  // Close modal on close icon click
+  closeBtn.addEventListener('click', function () {
+    modal.style.display = 'none';
+    document.body.style.overflow = ''; // Enable scroll
+  });
+
+  // Close modal when clicking outside the modal content
+  window.addEventListener('click', function (e) {
+    if (e.target === modal) {
+      modal.style.display = 'none';
+      document.body.style.overflow = '';
+    }
+  });
+
+  // Optional: handle login form submission
+  const loginForm = document.getElementById('loginForm');
+  loginForm.addEventListener('submit', function (e) {
+    e.preventDefault(); // Prevent real form submission
+    alert('Login successful. Brochure download will begin shortly.');
+    modal.style.display = 'none';
+    document.body.style.overflow = '';
+    // Here, you could trigger the download with window.location = 'brochure.pdf';
+  });
+});
+
+</script>
+
+
+  <!-- Fixed WhatsApp and Call Icons -->
+  <div class="fixed-contact-icons">
+    <a href="https://wa.me/919999999999" target="_blank" aria-label="WhatsApp" class="contact-icon whatsapp-icon">💬</a>
+    <a href="tel:+919999999999" aria-label="Call" class="contact-icon call-icon">📞</a>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Godrej Alira. All Rights Reserved.</p>
+  </footer>
+
+</body>
+</html> 
